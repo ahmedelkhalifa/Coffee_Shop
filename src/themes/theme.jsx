@@ -3,12 +3,12 @@ import React from 'react'
 
 const theme = createTheme({
     palette: {
-        background: { default: '#F7F3EE' },
+        background: { default: '#F7F3EE', paper: '#f9f7f4' },
         text: {
             primary: "#1C1C1C",
             secondary: "#6B6B6B"
         },
-        accent: { main: "#8B5E3C" },
+        accent: { main: "rgb(139, 94, 60)" },
         border: { main: "#E7DED6" }
     },
     typography: {
