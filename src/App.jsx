@@ -1,14 +1,14 @@
 import React from 'react'
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import { HashRouter, Route, Router, Routes } from 'react-router-dom'
 import Home from './themes/pages/Home'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
