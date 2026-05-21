@@ -3,6 +3,7 @@ import React from "react";
 import Hero from "./Hero";
 import Features from './Features';
 import Menu from "./Menu";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -15,6 +16,9 @@ const Home = () => {
       </Box>
       <Box sx={{pt: "100px"}}>
         <Menu />
+      </Box>
+      <Box sx={{pt: "100px"}}>
+        <About />
       </Box>
     </>
   );
