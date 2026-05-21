@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Features from './Features';
 import Menu from "./Menu";
 import About from "./About";
+import Location from "./Location";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
       </Box>
       <Box sx={{pt: "100px"}}>
         <About />
+      </Box>
+      <Box sx={{pt: "100px"}}>
+        <Location />
       </Box>
     </>
   );
