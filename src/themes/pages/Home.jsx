@@ -5,6 +5,7 @@ import Features from './Features';
 import Menu from "./Menu";
 import About from "./About";
 import Location from "./Location";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +24,9 @@ const Home = () => {
       </Box>
       <Box sx={{pt: "100px"}}>
         <Location />
+      </Box>
+      <Box sx={{pt: "100px"}}>
+        <Footer />
       </Box>
     </>
   );
